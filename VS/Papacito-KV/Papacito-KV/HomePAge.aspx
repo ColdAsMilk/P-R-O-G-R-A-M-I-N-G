@@ -14,10 +14,9 @@
 <body>
     <form id="form1" runat="server">
         <div class="auto-style1">
-            <asp:Image ID="Image1" runat="server" Height="371px" ImageUrl="~/article-0-081CE324000005DC-88_224x423.jpg" style="text-align: center" Width="334px" />
             <br />
             <br />
-            Welcome to Papa Gordans Pizzeria!<br />
+            Welcome to Papa Bobs Pizza!<br />
             <br />
             <asp:Button ID="mainPageButton" runat="server" Text="Click Here To Continue" OnClick="mainPageButton_Click" />
         </div>
