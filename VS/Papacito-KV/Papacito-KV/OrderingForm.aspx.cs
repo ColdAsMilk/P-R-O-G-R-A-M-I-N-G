@@ -52,76 +52,81 @@ namespace Papacito_KV
             greenpepper = 00.50;
             bluepepper = 00.75;
             anchovices = 02;
-            total = 01;
-            total2 = 01;
-            total3 = 01;
+            total = 0;
+            total2 = 0;
+            total3 = 0;
 
             //Pizza 1
             if (RadioButton1.Checked)
             {
-                total = total + babysize;
+                total = total + 10;
             }
 
             else if (RadioButton2.Checked)
             {
-                total = total + mamasize;
+                total = total + 13;
             }
 
             else if (RadioButton3.Checked)
             {
-                total = total + papasize;
+                total = total + 16;
             }
 
             else if (RadioButtonThinOne.Checked)
             {
-                total = total + thincrust;
+                total = total + 0;
             }
 
-            else if (RadioButtonThickone.Checked)
+            else
             {
-                total = total + deepdish;
+                total = total + 2;
             }
 
-            if (CheckBox1.Checked)
+            total = (CheckBox1.Checked) ? total + 1.25: total;
+            total = (CheckBox2.Checked) ? total + 1: total;
+            total = (.Ch ecked) ? total + 0.50: total;
+            total = (.Checked) ? total + __: total;
+            total = (.Checked) ? total + __: total;
+            /*if (CheckBox1.Checked)
             {
-                total = total + pepperoni;
+                total = total + 1.25;
             }
 
             if (CheckBox2.Checked)
             {
-                total = total + Sasuge;
+                total = total + 1;
             }
 
             if (CheckBox3.Checked)
             {
-                total = total + greenpepper;
+                total = total + 0.50;
             }
 
             if (CheckBox4.Checked)
             {
-                total = total + bluepepper;
+                total = total + 0.75;
 
             }
             if (CheckBox5.Checked)
             {
-                total = total + anchovices;
+                total = total + 2;
             }
-
+            */
 
             //Pizza2
             if (RadioButton4.Checked)
             {
-                total2 = total2 + babysize;
+                total2 = total2 + babysize + 1;
             }
 
             else if (RadioButton5.Checked)
             {
-                total2 = total2 + mamasize;
+                total2 = total2 + mamasize + 1;
             }
 
             else if (RadioButton6.Checked)
             {
-                total2 = total2 + papasize;
+                total2 = total2 + papasize + 1;
             }
 
             else if (RadioButtonThinTwo.Checked)
@@ -136,27 +141,27 @@ namespace Papacito_KV
 
             if (CheckBox6.Checked)
             {
-                total2 = total2 + pepperoni;
+                total2 = total2 + pepperoni + 1;
             }
 
             if (CheckBox7.Checked)
             {
-                total2 = total2 + Sasuge;
+                total2 = total2 + Sasuge + 1;
             }
 
             if (CheckBox8.Checked)
             {
-                total2 = total2 + greenpepper;
+                total2 = total2 + greenpepper + 1;
             }
 
             if (CheckBox9.Checked)
             {
-                total2 = total2 + bluepepper;
+                total2 = total2 + bluepepper + 1;
 
             }
             if (CheckBox10.Checked)
             {
-                total2 = total2 + anchovices;
+                total2 = total2 + anchovices + 1;
             }
 
 
@@ -165,17 +170,17 @@ namespace Papacito_KV
             //Pizza 3
             if (RadioButton7.Checked)
             {
-                total3 = total3 + babysize;
+                total3 = total3 + babysize + 1;
             }
 
             else if (RadioButton8.Checked)
             {
-                total3 = total3 + mamasize;
+                total3 = total3 + mamasize + 1;
             }
 
             else if (RadioButton9.Checked)
             {
-                total3 = total3 + papasize;
+                total3 = total3 + papasize + 1;
             }
 
             else if (RadioButtonThinThree.Checked)
@@ -190,27 +195,27 @@ namespace Papacito_KV
 
             if (CheckBox11.Checked)
             {
-                total3 = total3 + pepperoni;
+                total3 = total3 + pepperoni + 1;
             }
 
             if (CheckBox12.Checked)
             {
-                total3 = total3 + Sasuge;
+                total3 = total3 + Sasuge + 1;
             }
 
             if (CheckBox13.Checked)
             {
-                total3 = total3 + greenpepper;
+                total3 = total3 + greenpepper + 1;
             }
 
             if (CheckBox14.Checked)
             {
-                total3 = total3 + bluepepper;
+                total3 = total3 + bluepepper + 1;
 
             }
             if (CheckBox15.Checked)
             {
-                total3 = total3 + anchovices;
+                total3 = total3 + anchovices + 1;
             }
             if (onePizza.Checked)
             {
