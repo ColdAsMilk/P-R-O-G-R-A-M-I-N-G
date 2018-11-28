@@ -20,10 +20,7 @@
         .auto-style4 {
             font-size: xx-large;
         }
-        .auto-style5 {
-            text-align: center;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -129,32 +126,45 @@
                 <br />
                 <br />
             </asp:Panel>
-            <asp:Button ID="cliq2Order" runat="server" Text="Press Me!" OnClick="cliq2Order_Click" />
-            <br />
-            <br />
-            <asp:Panel ID="Panel4" runat="server">
-                <div class="auto-style5">
-                    <br />
-                    <br />
-                </div>
+            <asp:Panel ID="Panel9" runat="server">
+                <asp:Button ID="cliq2Order" runat="server" Text="Press Me!" OnClick="cliq2Order_Click" />
             </asp:Panel>
-            <asp:Panel ID="Panel5" runat="server" style="text-align: center" Visible="False">
+            <br />
+            <asp:Panel ID="Panel5" runat="server" style="text-align: center; background-color: #FF3300;" Visible="False">
                 <span class="auto-style4">Pizza 1</span><br /> Price
                 <asp:Label ID="Label1" runat="server"></asp:Label>
                 <br />
                 <asp:Label ID="resultLabelP1" runat="server"></asp:Label>
+                <asp:Label ID="Label4" runat="server"></asp:Label>
+                <asp:Label ID="Label5" runat="server"></asp:Label>
+                <asp:Label ID="Label6" runat="server"></asp:Label>
+                <asp:Label ID="Label7" runat="server"></asp:Label>
+                <asp:Label ID="Label8" runat="server"></asp:Label>
+                <asp:Label ID="Label9" runat="server"></asp:Label>
             </asp:Panel>
-            <asp:Panel ID="Panel6" runat="server" style="text-align: center" Visible="False">
+            <asp:Panel ID="Panel6" runat="server" style="text-align: center; background-color: #FF9966;" Visible="False">
                 <span class="auto-style4">Pizza 2</span><br /> Price
                 <asp:Label ID="Label2" runat="server"></asp:Label>
                 <br />
                 <asp:Label ID="resultLabelP2" runat="server" style="text-align: center"></asp:Label>
+                <asp:Label ID="Label10" runat="server"></asp:Label>
+                <asp:Label ID="Label11" runat="server"></asp:Label>
+                <asp:Label ID="Label12" runat="server"></asp:Label>
+                <asp:Label ID="Label13" runat="server"></asp:Label>
+                <asp:Label ID="Label14" runat="server"></asp:Label>
+                <asp:Label ID="Label15" runat="server"></asp:Label>
             </asp:Panel>
-            <asp:Panel ID="Panel7" runat="server" style="text-align: center" Visible="False">
+            <asp:Panel ID="Panel7" runat="server" style="text-align: center; background-color: #6699FF;" Visible="False">
                 <span class="auto-style4">Pizza 3</span><br /> Price
                 <asp:Label ID="Label3" runat="server"></asp:Label>
                 <br />
                 <asp:Label ID="resultLabelP3" runat="server"></asp:Label>
+                <asp:Label ID="Label16" runat="server"></asp:Label>
+                <asp:Label ID="Label17" runat="server"></asp:Label>
+                <asp:Label ID="Label18" runat="server"></asp:Label>
+                <asp:Label ID="Label19" runat="server"></asp:Label>
+                <asp:Label ID="Label20" runat="server"></asp:Label>
+                <asp:Label ID="Label21" runat="server"></asp:Label>
             </asp:Panel>
             <br />
             <br />
